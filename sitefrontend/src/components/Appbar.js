@@ -21,7 +21,7 @@ export default function Appbar() {
           >
             <MenuIcon />
           </IconButton>
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+          <Typography variant="h6" component="div" sx={{ flexGrow: 2 }}>
             KWGC Welcomes You !
           </Typography>
           <Button color="inherit">Login</Button>
