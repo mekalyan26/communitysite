@@ -6,9 +6,9 @@ const Navbar = () =>{
     return(
         <div className="header">
             <Link to="/">
-                <h1>KWGC Social</h1>
+                <h1>KWGC Cultural Group</h1>
             </Link>
-            <ul>
+            <ul className="nav-menu">
                 <li>
                     <Link to="/">Home</Link>
                 </li>
