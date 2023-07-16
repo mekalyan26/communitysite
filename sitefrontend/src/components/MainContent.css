@@ -1,3 +1,43 @@
-.container {
-	display: flex;
+.holder{
+   
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+
+.img-wrapper {
+    display:inline-block; 
+    height:50px; 
+    overflow:hidden; 
+    width:50;
+    padding-left: 1rem;
+}
+.img-wrapper img {height: 50px;}
+.wrapper {
+    padding: 5px;
+    max-width: 960px;
+    width: 95%;
+    margin: 20px auto;
+}
+.columns{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-around;
+    margin: 5px 0;
+}
+.column {
+    flex: 1;
+    border: 1px solid #666;
+    margin: 2px;
+    padding: 15px;
+    background: rgb(190, 179, 159);
+    transition: 0.3s;
+}
+@media screen and (max-width: 980px) {
+    .columns .column {
+        margin-bottom: 5px;
+        flex-basis: 40%;
+    }
+    
 }
