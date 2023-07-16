@@ -1,6 +1,9 @@
 import "./Navbar.css"
 import React from 'react'
 import{Link} from 'react-router-dom'
+import img1 from '../images/socialkolkata.jpg'
+import pjpg from '../images/1.jpg'
+import gjpg from '../images/2.jpg'
 
 const Navbar = () =>{
     return(
@@ -8,6 +11,12 @@ const Navbar = () =>{
             <Link to="/">
                 <h1>KWGC Cultural Group</h1>
             </Link>
+            <div className="img-wrapper ">
+            <img src={pjpg} alt="" />
+            </div>  
+            <div className="img-wrapper ">
+            <img src={gjpg} alt="" />
+            </div>  
             <ul className="nav-menu">
                 <li>
                     <Link to="/">Home</Link>
@@ -16,7 +25,7 @@ const Navbar = () =>{
                     <Link to="/register">Register</Link>
                 </li>
                 <li>
-                    <Link to="/login">Login</Link>
+                    <Link to="/gallery">Gallery</Link>
                 </li>
                 <li>
                     <Link to="/aboutus">AboutUs</Link>
