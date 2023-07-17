@@ -9,7 +9,7 @@ const Navbar = () =>{
     return(
         <div className="header">
             <Link to="/">
-                <h1>KWGC Cultural Group</h1>
+                <h1 className="text">KWGC Cultural Group</h1>
             </Link>
         
             <div className="img-wrapper ">

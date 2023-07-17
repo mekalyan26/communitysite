@@ -35,3 +35,12 @@
     padding-left: 1rem;
 }
 .img-wrapper img {height: 50px;}
+
+.text{
+
+  background: linear-gradient(90deg, #00dbde, #fc00ff);
+  font-family: Poppins;
+  font-size: 40px;
+  -webkit-background-clip:text;
+  -webkit-text-fill-color: transparent;
+}
