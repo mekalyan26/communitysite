@@ -11,9 +11,7 @@ const Navbar = () =>{
             <Link to="/">
                 <h1>KWGC Cultural Group</h1>
             </Link>
-            <div className="img-wrapper ">
-            <img src={pjpg} alt="" />
-            </div>  
+        
             <div className="img-wrapper ">
             <img src={gjpg} alt="" />
             </div>  
