@@ -1,5 +1,5 @@
 import React from 'react'
-import CardLayout from '../components/CardLayout';
+import GalleryCard from '../components/GalleryCard';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
@@ -7,6 +7,7 @@ const Gallery = () => {
   return (
     <div>
       <Navbar/>
+      <GalleryCard/>
       <Footer />
     </div>
   )
