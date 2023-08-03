@@ -1,13 +1,13 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import MainContent from '../components/MainContent';
+import HomePage from '../components/HomePage';
 
 const Landing = () => {
   return (
     <div>
       <Navbar/>
-      <MainContent/>
+      <HomePage/>
       <Footer />
     </div>
   )
