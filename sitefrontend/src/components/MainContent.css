@@ -3,6 +3,18 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
+    height: auto;
+   
+}
+
+.main{
+    width: 100%;
+    height: auto;
+    background-color: rgb(245, 245, 245);
+    font-family: poppins;
+    padding: 50px 0;
+    display: grid;
+    place-items: center;
 }
 
 
@@ -21,6 +33,8 @@
     margin: 20px auto;
 }
 .columns{
+    width: 100%;
+    height: auto;
     display: flex;
     flex-flow: row wrap;
     justify-content:space-around;

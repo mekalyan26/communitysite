@@ -8,13 +8,15 @@ import gjpg from '../images/2.jpg'
 const Navbar = () =>{
     return(
         <div className="header">
-            <Link to="/">
+            <ul className="nav-menu">
+                <li>
+                <Link to="/">
                 <h1 className="text">KWGC Cultural Group</h1>
-            </Link>
-        
-            <div className="img-wrapper ">
-            <img src={gjpg} alt="" />
-            </div>  
+                </Link>
+                </li>
+            
+            </ul>
+            
             <ul className="nav-menu">
                 <li>
                     <Link to="/">Home</Link>

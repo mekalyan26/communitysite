@@ -4,8 +4,8 @@ import React from 'react'
 
 const MainContent = () =>{
     return(
-        <div className="wrapper">
-        <section className="columns">
+        <div className="main">
+        <div className="columns">
             <div className="column">
                 <h2>2022 Events</h2>
                 <p>This is where we list all happened last events</p>
@@ -19,7 +19,7 @@ const MainContent = () =>{
                 <p>Community Picnic</p>
                 <p>Durga Puja</p>
             </div>
-        </section>
+        </div>
         </div>
         )
 };
