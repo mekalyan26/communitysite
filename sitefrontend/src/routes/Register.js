@@ -1,14 +1,15 @@
 import React from 'react'
 import Navbar from '../components/Navbar';
-import MainContent from '../components/MainContent';
+import Registeration from '../components/Registeration';
 import Footer from '../components/Footer';
 
 const Register = () => {
   return (
     
-    <div><Navbar/>
-    <MainContent/>
-    <Footer />
+    <div>
+      <Navbar/>
+      <Registeration/>
+      <Footer />
     </div>
   )
 }

@@ -22,6 +22,11 @@ export const HomePage = () => {
                     <p>Community Picnic</p>
                     <p>Durga Puja</p>
                 </div>
+                <div className="column">
+                    <h2>2023 Events</h2>
+                    <p>Community Picnic</p>
+                    <p>Durga Puja</p>
+                </div>
             </div>
         </div>
 
