@@ -1,9 +1,7 @@
 import "./Navbar.css"
 import React from 'react'
 import{Link} from 'react-router-dom'
-import img1 from '../images/socialkolkata.jpg'
-import pjpg from '../images/1.jpg'
-import gjpg from '../images/2.jpg'
+
 
 const Navbar = () =>{
     return(

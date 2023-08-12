@@ -79,7 +79,7 @@ hr {
 
 /* Set a style for the submit/register button */
 .registerbtn {
-  background-color: #04AA6D;
+  background-color: #7c7bb4;
   color: white;
   padding: 16px 20px;
   margin: 8px 0;
@@ -96,6 +96,24 @@ hr {
 /* Add a blue text color to links */
 a {
   color: dodgerblue;
+}
+
+.text{
+
+  background: linear-gradient(90deg, #2c3636, #59799c);
+  font-family: Poppins;
+  font-size: 20px;
+  -webkit-background-clip:text;
+  -webkit-text-fill-color: transparent;
+}
+.maintext{
+
+  background: linear-gradient(90deg, #2c3636, #59799c);
+ 
+  font-family: Poppins;
+  font-size: 40px;
+  -webkit-background-clip:text;
+  -webkit-text-fill-color: transparent;
 }
 
 /* Set a grey background color and center the text of the "sign in" section */

@@ -4,7 +4,7 @@ import "./Events.css";
 
 export const HomePage = () => {
     return (
-        <div class="main">
+        <div class="mainEvents">
             <h3 class="heading"> Events </h3>
 
             <div class="Timeline">
