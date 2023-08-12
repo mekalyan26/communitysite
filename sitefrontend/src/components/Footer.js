@@ -22,13 +22,6 @@ const Footer = () =>{
   	 			</ul>
   	 		</div>
   	 		<div class="footer-col">
-  	 			<h4>online presence</h4>
-  	 			<ul>
-  	 				<li><a href="#">follow</a></li>
-
-  	 			</ul>
-  	 		</div>
-  	 		<div class="footer-col">
   	 			<h4>follow us</h4>
   	 			<div class="social-links">
   	 				<a href="#"><i class="fab fa-facebook-f"></i></a>
