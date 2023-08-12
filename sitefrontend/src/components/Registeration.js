@@ -4,22 +4,22 @@ import React from 'react'
 
 const MainContent = () => {
     return (
-        <div className="main">
+        <div className="mainRegister">
             <div>
-                <h1>Register</h1>
-                <p>Please fill in this form to create an account.</p>
-                <label for="email"><b>Email</b></label>
+                <h1 className="maintext">Register</h1>
+                
+                <label for="email" className="text"><b>Email</b></label>
                 <input type="text" placeholder="Enter Email" name="email" id="email" required />
 
-                <label for="psw"><b>Password</b></label>
+                <label for="psw" className="text"><b>Password</b></label>
                 <input type="password" placeholder="Enter Password" name="psw" id="psw" required />
 
-                <label for="psw-repeat"><b>Repeat Password</b></label>
+                <label for="psw-repeat" className="text"><b>Repeat Password</b></label>
                 <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required />
 
 
                 <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
-                <button type="submit" class="registerbtn">Register</button>
+                <button type="submit" className="registerbtn">Register</button>
             </div>
         </div>
     )

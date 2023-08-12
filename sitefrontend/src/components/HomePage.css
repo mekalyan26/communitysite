@@ -4,10 +4,23 @@
             margin: 0;
             box-sizing: border-box;
         }
+        /*.main{
+            width: 100%;
+            height: auto;
+            background-color: rgb(245, 245, 245);
+            font-family: poppins;
+            padding: 50px 0;
+            display: grid;
+            place-items: center;
+        }*/
         .main{
             width: 100%;
             height: auto;
             background-color: rgb(245, 245, 245);
+            /*background-image: url('../images/socialkolkata.jpg');*/
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center center;
             font-family: poppins;
             padding: 50px 0;
             display: grid;
