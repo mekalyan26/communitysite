@@ -30,12 +30,15 @@
             position: absolute;
             inset: 0;
             font-size: 2rem;
+            color: antiquewhite;
             padding: 1rem;
-            background: rgba(255, 255, 255, .4);
+            background: rgba(90, 66, 66, 0.4);
             display: flex;
             justify-content: center;
             align-items: center;
           }
+
+          
           
           .img-wrapper1 > img,
           .img-wrapper1 > .content {
