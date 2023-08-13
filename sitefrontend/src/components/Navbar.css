@@ -18,7 +18,7 @@
 }
 
 .nav-menu li a:hover{
-  color: #b43b3b;
+  color: black;
   text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
   -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
   -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
@@ -46,11 +46,11 @@
 .img-wrapper img {height: 50px;}
 
 .text{
-
-  background: linear-gradient(90deg, #00dbde, #fc00ff);
+  color: darkred;
+  background: whitesmoke;
   font-family: Poppins;
   font-size: 20px;
   -webkit-background-clip:text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color:cadetblue
 }
 

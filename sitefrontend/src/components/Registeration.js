@@ -4,7 +4,7 @@ import React from 'react'
 
 const MainContent = () => {
     return (
-        <div className="mainRegister">
+        <div className="main">
             <div>
                 <h1 className="maintext">Register</h1>
                 
