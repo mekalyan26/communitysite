@@ -4,11 +4,11 @@
             margin: 0;
             box-sizing: border-box;
         }
-        .mainAboutUs{
+        .main{
             width: 100%;
             height: auto;
-            /*background-color: rgb(245, 245, 245);
-            background-image: url("../../public/images/socialkolkata.jpg");*/
+            /*background-color: rgb(245, 245, 245);*/
+            background-image: url("../../public/images/socialkolkata.jpg");
             background-size: contain;
             background-repeat: no-repeat;
             background-position: center center;
