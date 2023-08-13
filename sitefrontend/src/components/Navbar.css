@@ -14,11 +14,12 @@
 
 .nav-menu li a{
     font-size: 1.0rem ;
-    font-weight: 500;
+    font-weight: 600;
+    color: rgb(15, 54, 31);
 }
 
 .nav-menu li a:hover{
-  color: black;
+  color: rgb(124, 116, 116);
   text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
   -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
   -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
@@ -46,11 +47,11 @@
 .img-wrapper img {height: 50px;}
 
 .text{
-  color: darkred;
+  color: rgb(51, 49, 49);
   background: whitesmoke;
   font-family: Poppins;
   font-size: 20px;
   -webkit-background-clip:text;
-  -webkit-text-fill-color:cadetblue
+  -webkit-text-fill-color:rgb(29, 32, 32)
 }
 
