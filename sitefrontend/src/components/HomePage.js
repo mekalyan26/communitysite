@@ -8,8 +8,8 @@ export const HomePage = () => {
 
         <div className='grid'>
             <div className='img-wrapper1'>
-                <img className='zoom gray' src='images/maadurga.jpg' />
-                <div className="content fade">Welcome !</div>
+                <img  src='images/maadurga.jpg' />
+                <div className="content blur fade">Welcome !</div>
             </div>
            
         </div>
