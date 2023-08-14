@@ -7,47 +7,25 @@
    
 }
 
-.main{
-    width: 100%;
+.mainRegister{
+    width: auto;
     height: auto;
-    background-color: rgb(245, 245, 245);
+    
     font-family: poppins;
     padding: 50px 0;
     display: grid;
     place-items: center;
 }
 
+.contains{
+  background: rgba(77, 143, 132, 0.747)
 
-.img-wrapper {
-    display:inline-block; 
-    height:50px; 
-    overflow:hidden; 
-    width:50;
-    padding-left: 1rem;
 }
-.img-wrapper img {height: 50px;}
-.wrapper {
-    padding: 5px;
-    max-width: 960px;
-    width: 95%;
-    margin: 20px auto;
-}
-.columns{
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content:space-around;
-    margin: 5px 0;
-}
-.column {
-    flex: 1;
-    border: 1px solid #666;
-    margin: 2px;
-    padding: 15px;
-    background: rgb(190, 179, 159);
-    transition: 0.3s;
-}
+
+
+
+
+
 
 * {box-sizing: border-box}
 
@@ -79,7 +57,7 @@ hr {
 
 /* Set a style for the submit/register button */
 .registerbtn {
-  background-color: #7c7bb4;
+  background-color: rgb(5, 53, 54);
   color: white;
   padding: 16px 20px;
   margin: 8px 0;
@@ -109,9 +87,9 @@ a {
 .maintext{
 
   background: linear-gradient(90deg, #2c3636, #59799c);
- 
+  text-align: center;
   font-family: Poppins;
-  font-size: 40px;
+  font-size: 30px;
   -webkit-background-clip:text;
   -webkit-text-fill-color: transparent;
 }
