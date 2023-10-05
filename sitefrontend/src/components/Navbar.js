@@ -29,7 +29,7 @@ const Navbar = () =>{
                     <Link to="/gallery">Gallery</Link>
                 </li>
                 <li>
-                    <Link to="/aboutus">AboutUs</Link>
+                    <Link to="/aboutus">About Us</Link>
                 </li>
             </ul>
         </div>
