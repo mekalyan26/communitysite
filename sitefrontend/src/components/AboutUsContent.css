@@ -59,7 +59,7 @@
             content: '';
             width: 2px;
             height: 100%;
-            background-image: linear-gradient(to right, rgb(106, 6, 236), rgb(220, 0, 240));
+            background-image: linear-gradient(to right, rgb(236, 53, 17), rgb(240, 180, 0));
         }
         .Timeline ul{
             list-style: none;

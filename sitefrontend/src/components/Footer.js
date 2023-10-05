@@ -10,7 +10,7 @@ const Footer = () =>{
   	 			<h4>Social</h4>
   	 			<ul>
   	 				<li><a href="#">about us</a></li>
-  	 				<li><a href="#">our services</a></li>
+  	 				<li><a href="#">events</a></li>
 
   	 			</ul>
   	 		</div>
