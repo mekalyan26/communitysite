@@ -6,37 +6,22 @@ import Navbar from '../components/Navbar';
 export const AboutUsContent = () => {
   return (
     <div class="main">
-    <h3 class="heading"> KWGC Timeline</h3>
+    <h3 class="heading"> KWGC Bengali Cultural Group</h3>
 
-    <div class="Timeline">
+    <div class="Timeline1">
         <ul>
             <li>
-                <h3 class="title">Durga Puja</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem eaque quidem esse? Incidunt, odit beatae?</p>
+                <p>Goddess Durga represents the united front of all devine forces against all negative forces.
+Bengalies all over the world during the days of Durga Puja rejoice to their heart’s content reconnecting with friends and families.
+Durga Puja is an occasion when the familiar sound of Dhak , Dhunuchi nachh, the fragrance of incense gives familiar tug to every Bengali heart.
+Uta Chatterjee and Robin Chatterjee along with friends were able to create home away from home feeling at the mandap of Kitchener Waterloo 2010.
+The best part of Durga Puja is kichuri bogh which is prepared and served with great love.  
+
+Year 2018 when Kitchener Waterloo (KWGC ) Cultural Group welcomed Maa Durga Protima from Kolkata a moment cherished by everyone who made this possible. 
+We welcomes around 300 guests throughout the day.  This gave us more encouragement to continue. 
+
+</p>
                 <a href="#">Read More </a>
-                <span class="circle"></span>
-                <span class="date">October 2023</span>
-            </li>
-            <li>
-                <h3 class="title">Durga Puja</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem eaque quidem esse? Incidunt, odit beatae?</p>
-                <a href="#">Read More </a>
-                <span class="circle"></span>
-                <span class="date">September 2018</span>
-            </li>
-            <li>
-                <h3 class="title">Durga Puja</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem eaque quidem esse? Incidunt, odit beatae?</p>
-                <a href="#">Read More </a>
-                <span class="circle"></span>
-                <span class="date">September 2017</span>
-            </li>
-            <li>
-                <h3 class="title">Durga Puja</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem eaque quidem esse? Incidunt, odit beatae?</p>
-                <a href="#">Read More </a>
-                <span class="circle"></span>
-                <span class="date">October 2012</span>
             </li>
         </ul>
     </div>

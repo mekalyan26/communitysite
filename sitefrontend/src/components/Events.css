@@ -166,6 +166,12 @@ ul li .date {
     transform: translate(-50%, -50%);
 }
 
+img {
+    width: 100%;
+    height: auto;
+    position:center;
+  }
+
 /*  Media Query Started  */
 
 @media screen and (max-width:1224px) {
