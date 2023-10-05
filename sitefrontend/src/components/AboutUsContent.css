@@ -8,7 +8,7 @@
             width: 100%;
             height: auto;
             /*background-color: rgb(245, 245, 245);*/
-            background-image: url("../../public/images/socialkolkata.jpg");
+            
             background-size: contain;
             background-repeat: no-repeat;
             background-position: center center;
@@ -24,7 +24,7 @@
         .main .heading{
             font-size: 27px;
             font-weight: 500;
-            color: rgb(38, 15, 68);
+            color: rgb(106, 29, 4);
             position: relative;
             margin-bottom: 80px;
         }
@@ -35,9 +35,17 @@
             height: 4px;
             left: 50%;
             bottom: -5px;
-            background-image: linear-gradient(to right, rgb(106, 6, 236), rgb(220, 0, 240));
+            background-image: linear-gradient(to right, rgb(174, 50, 16), rgba(239, 218, 30, 0.908));
             transform: translateX(-50%);
         }
+
+        para   {       
+
+            border-radius: 0;       
+            
+            border: 8px inset var(--maroon);
+            
+               }
 
         /* Timeline Css Start  */
 
