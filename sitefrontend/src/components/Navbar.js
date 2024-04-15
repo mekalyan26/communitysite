@@ -9,7 +9,7 @@ const Navbar = () =>{
             <ul className="nav-menu">
                 <li>
                 <Link to="/">
-                <h1 className="text">KWGC Bengali Cultural Group</h1>
+                <h1 className="text">KWGC Social </h1>
                 </Link>
                 </li>
             
@@ -20,13 +20,13 @@ const Navbar = () =>{
                     <Link to="/">Home</Link>
                 </li>
                 <li>
-                    <Link to="/events">Events</Link>
+                    <Link to="/events">Food</Link>
                 </li>
                 <li>
-                    <Link to="/register">Sponsorship</Link>
+                    <Link to="/register">Learning</Link>
                 </li>
                 <li>
-                    <Link to="/gallery">Gallery</Link>
+                    <Link to="/gallery">Art</Link>
                 </li>
                 <li>
                     <Link to="/aboutus">About Us</Link>
