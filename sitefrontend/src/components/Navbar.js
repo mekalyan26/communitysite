@@ -9,7 +9,7 @@ const Navbar = () =>{
             <ul className="nav-menu">
                 <li>
                 <Link to="/">
-                <h1 className="text"> Platform KW </h1>
+                <h1 className="text"> KW StartApp </h1>
                 </Link>
                 </li>
             
