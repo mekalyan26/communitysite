@@ -9,7 +9,7 @@ const Navbar = () =>{
             <ul className="nav-menu">
                 <li>
                 <Link to="/">
-                <h1 className="text">KWGC Social </h1>
+                <h1 className="text"> Platform KW </h1>
                 </Link>
                 </li>
             
@@ -20,7 +20,7 @@ const Navbar = () =>{
                     <Link to="/">Home</Link>
                 </li>
                 <li>
-                    <Link to="/events">Food</Link>
+                    <Link to="/events">Business</Link>
                 </li>
                 <li>
                     <Link to="/register">Learning</Link>
@@ -29,7 +29,7 @@ const Navbar = () =>{
                     <Link to="/gallery">Art</Link>
                 </li>
                 <li>
-                    <Link to="/aboutus">About Us</Link>
+                    <Link to="/aboutus">Job and Training</Link>
                 </li>
             </ul>
         </div>

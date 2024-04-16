@@ -6,17 +6,13 @@ import "./HomePage.css";
 export const HomePage = () => {
     return (
 
-        <div className='grid'>
-            <div className='img-wrapper1'>
-               
-                <div className="content blur fade">
-                    <p>
-                        Welcome !
-                    </p>
-                </div>
-            </div>
-           
-        </div>
+    <div class="grid-container">
+        <div class="grid-item">Art Classes</div>
+        <div class="grid-item big">Daycare</div>
+        <div class="grid-item">Tiffin Services and Catering</div>
+        <div class="grid-item">Summer Camp</div>
+        <div class="grid-item">Real Estate</div>
+    </div>
 
     )
 }

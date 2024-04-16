@@ -91,3 +91,24 @@
           .img-wrapper1:hover > .content.slide-up {
             transform: translateY(0);
           }
+
+          .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            grid-template-rows: auto;
+            gap: 10px; /* Adjust this to set the gap between grid items */
+            justify-content: center; /* Center the grid horizontally */
+            align-items: center; /* Center the grid vertically */
+            height: 100vh; /* Make the grid take up the full height of the viewport */
+        }
+        
+        .grid-item {
+            border: 1px solid #000;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .big {
+            grid-column: span 2; /* This makes the middle column twice the size */
+        }
+        
