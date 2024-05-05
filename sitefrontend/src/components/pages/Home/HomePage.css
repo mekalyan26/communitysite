@@ -1,93 +1,90 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Rancho&family=Water+Brush&display=swap');
-        *{
-            margin: 0;
-            margin-bottom: 25rem;
-        }
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+}
+
+.img-wrapper1 {
+  position: relative;
+  overflow: hidden;
+}
+
+.img-wrapper1>img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 / .5;
+  object-fit: cover;
+  padding: 1px;
+
+}
+
+.img-wrapper1>.content {
+  position: absolute;
+  inset: 0;
+  font-size: 2rem;
+  color: antiquewhite;
+  padding: 1rem;
+  background: rgba(90, 66, 66, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 
-        
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            
-          }
-          
-          .img-wrapper1 {
-            position: relative;
-            overflow: hidden;
-          }
-          
-          .img-wrapper1 > img {
-            display: block;
-            width: 100%;
-            aspect-ratio: 1 / .5;
-            object-fit:cover;
-            padding: 1px;
-            
-          }
-          
-          .img-wrapper1 > .content {
-            position: absolute;
-            inset: 0;
-            font-size: 2rem;
-            color: antiquewhite;
-            padding: 1rem;
-            background: rgba(90, 66, 66, 0.4);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-          }
 
-          
-          
-          .img-wrapper1 > img,
-          .img-wrapper1 > .content {
-            transition: 200ms ease-in-out;
-          }
-          
-          .img-wrapper1:hover > img.blur {
-            filter: blur(5px);
-          }
-          
-          .img-wrapper1:hover > img.gray {
-            filter: grayscale(1);
-          }
-          
-          .img-wrapper1:hover > img.zoom {
-            transform: scale(1.1);
-          }
-          
-          .img-wrapper1 > .content.fade {
-            opacity: 0;
-          }
-          .img-wrapper1:hover > .content.fade {
-            opacity: 1;
-          }
-          
-          .img-wrapper1 > .content.slide-left {
-            transform: translateX(-100%);
-          }
-          .img-wrapper1:hover > .content.slide-left {
-            transform: translateX(0);
-          }
-          
-          .img-wrapper1 > .content.slide-right {
-            transform: translateX(100%);
-          }
-          .img-wrapper1:hover > .content.slide-right {
-            transform: translateX(0);
-          }
-          
-          .img-wrapper1 > .content.slide-down {
-            transform: translateY(-100%);
-          }
-          .img-wrapper1:hover > .content.slide-down {
-            transform: translateY(0);
-          }
-          
-          .img-wrapper1 > .content.slide-up {
-            transform: translateY(100%);
-          }
-          .img-wrapper1:hover > .content.slide-up {
-            transform: translateY(0);
-          }
+.img-wrapper1>img,
+.img-wrapper1>.content {
+  transition: 200ms ease-in-out;
+}
+
+.img-wrapper1:hover>img.blur {
+  filter: blur(5px);
+}
+
+.img-wrapper1:hover>img.gray {
+  filter: grayscale(1);
+}
+
+.img-wrapper1:hover>img.zoom {
+  transform: scale(1.1);
+}
+
+.img-wrapper1>.content.fade {
+  opacity: 0;
+}
+
+.img-wrapper1:hover>.content.fade {
+  opacity: 1;
+}
+
+.img-wrapper1>.content.slide-left {
+  transform: translateX(-100%);
+}
+
+.img-wrapper1:hover>.content.slide-left {
+  transform: translateX(0);
+}
+
+.img-wrapper1>.content.slide-right {
+  transform: translateX(100%);
+}
+
+.img-wrapper1:hover>.content.slide-right {
+  transform: translateX(0);
+}
+
+.img-wrapper1>.content.slide-down {
+  transform: translateY(-100%);
+}
+
+.img-wrapper1:hover>.content.slide-down {
+  transform: translateY(0);
+}
+
+.img-wrapper1>.content.slide-up {
+  transform: translateY(100%);
+}
+
+.img-wrapper1:hover>.content.slide-up {
+  transform: translateY(0);
+}
