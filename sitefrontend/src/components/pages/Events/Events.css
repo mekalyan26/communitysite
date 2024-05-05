@@ -1,0 +1,25 @@
+.kwgc-events {
+    background-color: rgb(245, 245, 245);
+    padding-top: 50px;
+    height: 100%;
+}
+
+.event-heading {
+    text-align: center;
+    font-size: 27px;
+    font-weight: 500;
+    color: rgb(106, 6, 236);
+    position: relative;
+    margin-bottom: 80px;
+}
+
+.event-heading::after {
+    content: " ";
+    position: absolute;
+    width: 5%;
+    height: 4px;
+    left: 50%;
+    bottom: -5px;
+    background-image: linear-gradient(to right, rgb(106, 6, 236), rgb(220, 0, 240));
+    transform: translateX(-50%);
+}

@@ -1,41 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Rancho&family=Water+Brush&display=swap');
-
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-.stiched {
-    padding: 20px;
-    margin: 10px;
-    background: #800000;
-    color: #fff;
-    font-size: 21px;
-    font-weight: bold;
-    line-height: 1.3em;
-    border: 2px px dashed #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 0 4px #800000, 2px 1px 6px 4px rgba(10, 0, 0, 0.5);
-    text-shadow: 1px 1px #1a1a1a;
-    font-weight: normal;
-}
-
-
 .main {
     width: 100%;
     height: auto;
-    background-color: rgb(245, 245, 245);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
     font-family: poppins;
     padding: 50px 0;
     display: grid;
     place-items: center;
 }
 
+
 .main .heading {
     font-size: 27px;
     font-weight: 500;
-    color: rgb(106, 6, 236);
+    color: rgb(106, 29, 4);
     position: relative;
     margin-bottom: 80px;
 }
@@ -47,13 +26,14 @@
     height: 4px;
     left: 50%;
     bottom: -5px;
-    background-image: linear-gradient(to right, rgb(106, 6, 236), rgb(220, 0, 240));
+    background-image: linear-gradient(to right, rgb(174, 50, 16), rgba(239, 218, 30, 0.908));
     transform: translateX(-50%);
 }
 
+
 /* Timeline Css Start  */
 
-.Timeline {
+/* .Timeline {
     width: 70%;
     height: auto;
     position: relative;
@@ -64,7 +44,7 @@
     content: '';
     width: 2px;
     height: 100%;
-    background-image: linear-gradient(to right, rgb(106, 6, 236), rgb(220, 0, 240));
+    background-image: linear-gradient(to right, rgb(236, 53, 17), rgb(240, 180, 0));
 }
 
 .Timeline ul {
@@ -107,7 +87,7 @@
     font-size: 20px;
     font-weight: 500;
     color: rgb(106, 6, 236);
-}
+} */
 
 ul li p {
     font-size: 15px;
@@ -165,12 +145,6 @@ ul li .date {
     left: -30px;
     transform: translate(-50%, -50%);
 }
-
-img {
-    width: 100%;
-    height: auto;
-    position:center;
-  }
 
 /*  Media Query Started  */
 
