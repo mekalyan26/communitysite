@@ -1,0 +1,25 @@
+.kwgc-aboutus {
+    background: rgb(245, 245, 245);
+    height: 100%;
+}
+
+
+.kwgc-aboutus .heading {
+    font-size: 27px;
+    font-weight: 500;
+    color: rgb(106, 29, 4);
+    position: relative;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.kwgc-aboutus .heading::after {
+    content: " ";
+    position: absolute;
+    width: 15%;
+    height: 4px;
+    left: 50%;
+    bottom: -10px;
+    background-image: linear-gradient(to right, rgb(174, 50, 16), rgba(239, 218, 30, 0.908));
+    transform: translateX(-50%);
+}

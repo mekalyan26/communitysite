@@ -1,0 +1,15 @@
+{
+  "editor.codeActionsOnSave": {},
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "gitlens.defaultDateFormat": null,
+  "gitlens.graph.layout": "editor",
+  "git.ignoreRebaseWarning": true,
+  "eslint.format.enable": true,
+  "eslint.nodePath": "",
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+}

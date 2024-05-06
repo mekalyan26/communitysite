@@ -1,0 +1,27 @@
+/* Timeline Css Start  */
+.eventCard .Timeline {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.eventCard .stiched {
+    padding: 20px;
+    margin: 10px;
+    background: #800000;
+    color: #fff;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.3em;
+    border: 2px dashed #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 0 4px #800000, 2px 1px 6px 4px rgba(10, 0, 0, 0.5);
+    text-shadow: 1px 1px #1a1a1a;
+    font-weight: normal;
+}
+
+.eventCard img {
+    width: 100%;
+    height: auto;
+    position: center;
+}

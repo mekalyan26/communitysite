@@ -1,25 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
-import Landing from "./routes/Landing"
-import AboutUs from "./routes/AboutUs"
-import Gallery from "./routes/Gallery"
-import Register from "./routes/Register"
-import Events from "./routes/Events"
-import { Routes , Route} from 'react-router-dom';
+import { Routes, Route } from "react-router-dom";
 
+// Custom Imports
+// Components
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
+//Pages
+import HomePage from "./components/pages/Home/HomePage";
+import Events from "./components/pages/Events/Events";
+import AboutUsContent from "./components/pages/AboutUs/AboutUsContent";
+import GalleryCard from "./components/pages/Gallery/GalleryCard";
+import Register from "./components/pages/Register/Registeration";
+
+// Constants
+import ROUTES from "./constants/Routes";
+
+// Style file
+import "./styles/App.css";
 
 function App() {
   return (
-
-    <Routes>
-      <Route path="/" element={<Landing/>}/>
-      <Route path="/landing" element={<Landing/>}/>
-      <Route path="/events" element={<Events/>}/>
-      <Route path="/aboutus" element={<AboutUs/>}/>
-      <Route path="/gallery" element={<Gallery/>}/>
-      <Route path="/register" element={<Register/>}/>
-    </Routes>
+    <>
+      <Navbar />
+      <div className="kwgc-app">
+        <Routes>
+          <Route path={ROUTES.HOME} element={<HomePage />} />
+          <Route path={ROUTES.LANDING} element={<HomePage />} />
+          <Route path={ROUTES.EVENTS} element={<Events />} />
+          <Route path={ROUTES.ABOUTUS} element={<AboutUsContent />} />
+          <Route path={ROUTES.GALLERY} element={<GalleryCard />} />
+          <Route path={ROUTES.REGISTER} element={<Register />} />
+        </Routes>
+      </div>
+      <Footer />
+    </>
   );
 }
 

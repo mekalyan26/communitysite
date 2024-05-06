@@ -1,0 +1,25 @@
+.kwgc-navbar .navbar-brand {
+  background: linear-gradient(90deg, #2c3636, #59799c);
+  -webkit-text-fill-color: transparent;
+  font-size: 20px;
+  font-family: Poppins;
+  font-weight: bold;
+  -webkit-background-clip: text;
+}
+
+.kwgc-nav-container {
+  justify-content: end;
+}
+
+.kwgc-nav .nav-link {
+  font-size: 1.0rem;
+  font-weight: 600;
+  color: rgb(15, 54, 31);
+}
+
+.kwgc-nav .nav-link:hover {
+  color: #dc8835;
+  padding-left: 1px;
+  text-shadow: 0 0 6px #fff;
+  transition: all .4s ease 0s;
+}
