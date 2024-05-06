@@ -1,14 +1,12 @@
-.grids {
-  display: grid;
-  grid-template-columns: repeat(5, 200px);
-  justify-content: center;
-  align-content: center;
-  grid-gap: 10px;
-  height: 100vh;
+.grids .lg-react-element {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
 }
 
 .grids img {
   width: 200px;
   height: 200px;
+  object-fit: cover;
   cursor: pointer;
 }

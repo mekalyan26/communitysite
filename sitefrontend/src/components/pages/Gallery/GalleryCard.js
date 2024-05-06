@@ -1,23 +1,31 @@
+import LightGallery from "lightgallery/react";
+
+// import styles
+import "lightgallery/css/lightgallery.css";
+import "lightgallery/css/lg-zoom.css";
+import "lightgallery/css/lg-thumbnail.css";
+
+// import plugins if you need
+import lgThumbnail from "lightgallery/plugins/thumbnail";
+import lgZoom from "lightgallery/plugins/zoom";
+
+import { getPageContent } from "../../../content/siteContent";
+
 import "./GalleryCard.css";
 
 const GalleryCard = () => {
+  const { imageList } = getPageContent("gallery");
   return (
-    <div className="grids">
-      <img src="images/dp2010-1.png" alt="" />
-      <img src="images/saraswatipuja2018.jpg" alt="" />
-      <img src="images/durgapuja2018.jpg" alt="" />
-      <img src="images/durgapuja2017.jpg" alt="" />
-      <img src="images/picnic2017.jpg" alt="" />
-      <img src="images/gardenparty2017.jpg" alt="" />
-      <img src="images/durgapuja2016.jpg" alt="" />
-      <img src="images/durgapuja2015.jpg" alt="" />
-      <img src="images/durgapuja2014.jpg" alt="" />
-      <img src="images/picnic2022.jpg" alt="" />
-      <img src="images/picnic2015.jpg" alt="" />
-      <img src="images/function.jpg" alt="" />
-      <img src="images/kolorob-1.png" alt="" />
-      <img src="images/function-2.png" alt="" />
-      <img src="images/dp2022-1.png" alt="" />
+    <div className="grids container py-5">
+      <LightGallery speed={500} plugins={[lgThumbnail, lgZoom]} mode="lg-fade">
+        {imageList?.map((imageSrc, idx) => {
+          return (
+            <a key={`kwgcGallery-${idx}`} href={imageSrc}>
+              <img alt="" className='rounded mx-auto img-fluid' src={imageSrc} />
+            </a>
+          );
+        })}
+      </LightGallery>
     </div>
   );
 };
