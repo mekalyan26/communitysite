@@ -13,7 +13,7 @@ export const Events = () => {
   }`;
 
   return (
-    <div className="kwgc-events">
+    <div className="kwgc-events py-5">
       <Container>
         <Row>
           <Col md={{ span: 8, offset: 2 }}>
