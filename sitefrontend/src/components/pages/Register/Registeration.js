@@ -6,7 +6,7 @@ const MainContent = () => {
     return (
         <div className="mainRegister">
             <div className="stiched">
-            <img className="img" src='images/sponsor.png' />
+            <img className="img-fluid" src='images/sponsor.png' alt='' />
             </div>
         </div>
     )
