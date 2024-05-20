@@ -3,7 +3,68 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
  
   width:100%;
-  height:500px
+  height:590px
+
+}
+
+
+.section-1 {
+
+  margin-top:20px;
+  text-align:center;
+  background-color: light rgb(161, 9, 9);
+  padding:5px;
+  background-color: #f3d099;
+}
+
+.section1-text{
+  background-color:lightgray;
+  height:480px;
+
+}
+
+.section-2 {
+  font-size: 1.0rem;
+  font-weight: 600;
+ background-color:rgb(177, 201, 201);
+  margin-top:20px;
+  text-align:center;
+  
+}
+
+.section2-text{
+  background-color:lightgray;
+  height:480px;
+
+}
+
+.google-map {
+
+  position: relative;
+  padding-bottom:50%;
+
+}
+
+.google-map iframe {
+  height: 40%;
+  width: 40%;
+  left: 0;
+  top: 0;
+  position: absolute;
+}
+
+.section-3 {
+  margin-top:20px;
+  text-align:center;
+  background-color: light rgb(161, 9, 9);
+  padding:5px;
+  background-color: #f3d099;
+  
+}
+
+.section3-text{
+  background-color:rgb(78, 204, 160);
+  height:480px;
 
 }
 
@@ -93,21 +154,4 @@
   transform: translateY(0);
 }
 
-.section-text {
-  font-size: 1.0rem;
-  font-weight: 600;
-  color: rgb(54, 50, 15);
-  
-}
 
-.grays {
-  font-palette: --Grays;
-}
-
-.purples {
-  font-palette: --Purples;
-}
-
-.mint {
-  font-palette: --Mint;
-}
