@@ -1,6 +1,9 @@
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+ 
+  width:100%;
+  height:500px
 
 }
 
@@ -88,4 +91,23 @@
 
 .img-wrapper1:hover>.content.slide-up {
   transform: translateY(0);
+}
+
+.section-text {
+  font-size: 1.0rem;
+  font-weight: 600;
+  color: rgb(54, 50, 15);
+  
+}
+
+.grays {
+  font-palette: --Grays;
+}
+
+.purples {
+  font-palette: --Purples;
+}
+
+.mint {
+  font-palette: --Mint;
 }
